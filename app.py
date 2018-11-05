@@ -88,3 +88,17 @@ plt.plot([1,2,3,4,5],[6,2,9,1,3])
 plt.xlabel='Result'
 plt.show()
 
+BMI Calculator using if else statement
+
+ame = "Atom"
+height_m = 2
+weight_kg = 110
+bmi = weight_kg / (height_m ** height_m)
+print("bmi: ")
+print(bmi)
+if bmi < 25:
+    print(name)
+    print("is not overweight")
+else:
+    print(name)
+    print("is overweight")
