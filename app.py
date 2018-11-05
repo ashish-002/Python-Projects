@@ -1,7 +1,3 @@
-Graph
-
-import matplotlib as matplotlib
-
 print("python\"3.7")
 
 print(max(-4.5,-2.5))
