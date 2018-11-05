@@ -1,3 +1,5 @@
+Graph
+
 import matplotlib as matplotlib
 
 print("python\"3.7")
@@ -14,6 +16,8 @@ coordinates=(4,5), (5,6), (80,34)
 
 print(coordinates[0])
 
+Adding decimal nos.
+
 num1 = "50.4"
 
 num2 = "46.3"
@@ -21,6 +25,8 @@ num2 = "46.3"
 result = float(num1)+float(num2)
 
 print(result)
+
+List function
 
 name=["horse", "slackware", "sentinel", "rogue"]
 
@@ -33,6 +39,8 @@ name.remove("rogue")
 name.insert(3,"morgan")
 
 print(name)
+
+Month conversion
 
 monthconversion={
     "Jan":"January",
@@ -53,12 +61,16 @@ print(monthconversion["Jan"])
 
 print(monthconversion.get("Abc","Not a valid key"))
 
+While Loops
+
 i=1
 while i<=100:
     print(i)
     i += 1
 
 print("Done with the loop")
+
+Number grid
 
 number_grid= [
     [4,5,6],
@@ -69,26 +81,15 @@ number_grid= [
 
 print(number_grid[2][1])
 
+File editing
+
 open("AABA_2006-01-01_to_2018-01-01.csv", "r")
 
 open("movie_metadata.csv", "r")
 
-monthconversion={
-    "Jan":"January",
-    "Feb":"February",
-    "Mar":"March",
-    "Apr":"April",
-    "May":"May",
-    "Jun":"June",
-    "Jul":"July",
-    "Aug":"August",
-    "Sep":"September",
-    "Oct":"October",
-    "Nov":"November",
-    "Dec":"December"
-}
-
 file=open('movie_metadata.csv', encoding="utf8")
+
+Graph plotting
 
 import csv
 import numpy
