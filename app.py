@@ -90,7 +90,7 @@ plt.show()
 
 BMI Calculator using if else statement
 
-ame = "Atom"
+name = "Atom"
 height_m = 2
 weight_kg = 110
 bmi = weight_kg / (height_m ** height_m)
