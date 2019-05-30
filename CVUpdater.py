@@ -1,0 +1,12 @@
+from selenium import webdriver
+xyz = input('Enter Usr: ')
+pwd = input('Enter Pwd: ')
+driver = webdriver.Firefox()
+driver.implicitly_wait(30)
+driver.get("https://www.naukri.com/mnjuser/profile?id=&altresid")
+jkl = driver.find_element_by_id('usernameField')
+jkl.send_keys(xyz)
+password = driver.find_element_by_id('passwordField')
+password.send_keys(pwd)
+driver.find_element_by_xpath('//button[@type="submit"]').click()
+driver.find_element_by_id('attachCV').send_keys('/home/anonymous/Downloads/Resume.docx')
